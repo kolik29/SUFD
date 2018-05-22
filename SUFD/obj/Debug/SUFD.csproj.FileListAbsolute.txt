@@ -1,0 +1,9 @@
+C:\Users\assist\source\repos\SUFD\SUFD\bin\Debug\SUFD.exe
+C:\Users\assist\source\repos\SUFD\SUFD\bin\Debug\SUFD.pdb
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.csprojResolveAssemblyReference.cache
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.Form1.resources
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.Properties.Resources.resources
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.csproj.GenerateResource.cache
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.csproj.CoreCompileInputs.cache
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.exe
+C:\Users\assist\source\repos\SUFD\SUFD\obj\Debug\SUFD.pdb

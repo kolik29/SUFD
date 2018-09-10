@@ -26,7 +26,7 @@ namespace SUFD
 
             if (ofd.ShowDialog() == DialogResult.OK)
             {
-                try
+                //try
                 {
                     if ((ofd.OpenFile()) != null)
                     {
@@ -84,7 +84,9 @@ namespace SUFD
 
                             if (node.Name.ToString() == "PURPOSE")
                             {
-                                dataGridView1.Rows[numRow].Cells[6].Value = node.Value.Split(';')[2].Replace("НАЗНАЧЕНИЕ2:", "");
+                                string[] strNodeArray = node.Value.Split(' ');
+                                Array.Clear(strNodeArray, 0, 3);
+                                dataGridView1.Rows[numRow].Cells[6].Value = String.Join(" ", strNodeArray);
                                 elements.Add(new XElement(node.Name.ToString(), node.Value));
                                 numRow++;
                             }
@@ -106,9 +108,9 @@ namespace SUFD
                         }
                     }
                 }
-                catch (Exception ex)
+                //catch (Exception ex)
                 {
-                    MessageBox.Show("Ошибка. Не удалось открыть файл: " + ex.Message);
+                    //MessageBox.Show("Ошибка. Не удалось открыть файл: " + ex.Message);
                 }
             }
         }
